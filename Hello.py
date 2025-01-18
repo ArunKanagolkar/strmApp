@@ -1,10 +1,15 @@
 
-
+import pandas as pd
 import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
 
 
-st.write("Hello world")
+st.title("Hello world")
 st.write('This My first App Deploy')
-w = st.slider('Forecast with Days')
-f = w*2
-st.write(windows=f))
+v = st.slider('Select voltage')
+i = v = st.slider('Select current')
+p = v*i
+st.text(p)
+st.write('Power curve')
+plt.plot(p)
