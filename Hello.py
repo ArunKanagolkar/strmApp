@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 st.title(" ELE.POWER CALCULATION")
 st.write('Single and Three phase AC power calculator')
-v = st.slider('Select line voltage',min_value=1, max_value=300)
-i = st.slider('Select line current',min_value=1, max_value=300)
+v = st.slider('Select line voltage',min_value=1, max_value=500)
+i = st.slider('Select line current',min_value=1, max_value=500)
 pf = st.slider('Select line Power factor',min_value=0.1, max_value=1.0)
 option = st.selectbox(
     "Select type of system",
