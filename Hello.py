@@ -19,7 +19,7 @@ if option == 'Three phase':
   p = (1.73*v*i*0.85)/1000
   st.write('3ph AC power in KW')
   st.text(p)
-elif:
+else:
   p = (v*i*0.85)/1000
   st.write('1ph AC power in KW')
   st.text(p)
